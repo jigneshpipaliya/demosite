@@ -6,6 +6,7 @@ import { FaMobileAlt } from "react-icons/fa";
 const Main =()=>{
     return(
         <>
+        <h1>thisb dheoibhfio</h1>
         <div className="slider">
 
             <div className="relative">
