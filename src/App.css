@@ -7,7 +7,7 @@
   color: #919194;
 }
 .slider{
-  background: url(https://demo.themefisher.com/megakit/images/bg/home-1.jpg) !important ;
+  background: url(/public/home-1.jpg) !important ;
   background: no-repeat;
   background-size: cover !important;
   background-position: 10% 0%;
@@ -29,7 +29,7 @@
   top: 0px;
   width: 90%;
   min-height: 650px;
-  background: url(https://demo.themefisher.com/megakit/images/about/home-8.jpg) no-repeat;
+  background: url(/public/home-8.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .slider1{
-  background: url(	https://demo.themefisher.com/megakit/images/bg/home-3.jpg) !important ;
+  background: url(/public/home-3.jpg) !important ;
   background: no-repeat;
   background-size: cover !important;
   background-position: 10% 0%;
@@ -217,7 +217,7 @@
 }
 
 .slider2{
-  background: url(	https://demo.themefisher.com/megakit/images/bg/home-5.jpg) !important ;
+  background: url(/public/home-5.jpg) !important ;
   background: no-repeat;
   background-size: cover !important;
   background-position: 10% 0%;
@@ -247,7 +247,7 @@
 }
 
 .page-slider{
-  background: url(https://demo.themefisher.com/megakit/images/bg/home-2.jpg) !important ;
+  background: url(/public/home-2.jpg) !important ;
   background: no-repeat;
   background-size: cover !important;
   background-position: 10% 50% !important;

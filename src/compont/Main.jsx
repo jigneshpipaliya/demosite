@@ -217,19 +217,19 @@ const Main =()=>{
                   <div className=' container mx-auto grid grid-cols-3 gap-3 mt-28 '>
                  
                     <div className='ml-12'>
-                    <img src="https://demo.themefisher.com/megakit/images/blog/1.jpg" alt=""  className=' w-80 h-60 rounded '/>
+                    <img src='1.jpg' alt=""  className=' w-80 h-60 rounded '/>
                     <h1 className=' icon-color mt-8 text-lg ml-3'>Design/ Ui/Ux/ admin</h1>
                     <h1 className=' text-3xl font-semibold text-white'>How to improve design with typography?</h1>
                     <button className='mt-12 px-5 py-3 ring-2 rounded-full ring-red-500 text-white text-xs hover:bg-red-500 '>LEARN MORE</button>
                     </div>
                     <div className='ml-12'>
-                    <img src="https://demo.themefisher.com/megakit/images/blog/1.jpg" alt=""  className=' w-80 h-60 rounded '/>
+                    <img src="2.jpg" alt=""  className=' w-80 h-60 rounded '/>
                     <h1 className=' icon-color mt-8 text-lg ml-3'>Design/ Ui/Ux/ admin</h1>
                     <h1 className=' text-3xl font-semibold text-white'>How to improve design with typography?</h1>
                     <button className='mt-12 px-5 py-3 ring-2 rounded-full ring-red-500 text-white text-xs hover:bg-red-500 '>LEARN MORE</button>
                     </div>
                     <div className='ml-12'>
-                    <img src="https://demo.themefisher.com/megakit/images/blog/1.jpg" alt=""  className=' w-80 h-60 rounded '/>
+                    <img src="3.jpg" alt=""  className=' w-80 h-60 rounded '/>
                     <h1 className=' icon-color mt-8 text-lg ml-3'>Design/ Ui/Ux/ admin</h1>
                     <h1 className=' text-3xl font-semibold text-white'>How to improve design with typography?</h1>
                     <button className='mt-12 px-5 py-3 ring-2 rounded-full ring-red-500 text-white text-xs hover:bg-red-500 '>LEARN MORE</button>
