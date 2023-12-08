@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom/cjs/react-router-dom'
 const Header =()=>{
     return(
         <>
-        <div className=" w-100  bg-slate-900 ">
+        <div className=" w-100 header bg-slate-900 ">
           <div className=" container ">
             <div className=" row flex p-4 items-center  justify-around">
                 <div className=" col-3 flex gap-5 ">
@@ -23,21 +23,21 @@ const Header =()=>{
           </div>
           
           <div className=" border border-gray-500" ></div>
-          <div>
+          <div className="header-bottom">
             <div className=" container m-auto py-4 ">
-              <div className="row flex items-center justify-between">
+              <div className="row flex  justify-between items-center">
                 <div className=" col-span-2 ml-10">
                   <a href="" className=" text-white hover:text-red-700 font-bold text-xl">
                   Mega<samp className="text-red-700">kit.</samp> 
                   </a>
                 </div>
-                <div className=" flex gap-7 ">
-                     <Link to="/" className=" text-white hover:text-red-700">HOME </Link>
-                     <Link to="/about" className=" text-white  hover:text-red-700">ABOUT </Link>
-                     <Link to="/service" className=" text-white  hover:text-red-700 ">SERVICE</Link>
-                     <Link to="/portfolio" className=" text-white  hover:text-red-700">PORTFOLIO </Link>
-                     <Link to="/blog" className=" text-white  hover:text-red-700">BLOG </Link>
-                     <Link to="/contact" className=" text-white  hover:text-red-700 ">CONTACT </Link>
+                <div className=" flex gap-7 items-center">
+                     <Link to="/" className=" mark text-white hover:text-red-700">HOME </Link>
+                     <Link to="/about" className=" mark text-white  hover:text-red-700">ABOUT </Link>
+                     <Link to="/service" className=" mark text-white  hover:text-red-700 ">SERVICE</Link>
+                     <Link to="/portfolio" className=" mark text-white  hover:text-red-700">PORTFOLIO </Link>
+                     <Link to="/blog" className=" mark text-white  hover:text-red-700">BLOG </Link>
+                     <Link to="/contact" className=" mark text-white  hover:text-red-700 ">CONTACT </Link>
                      <button className=' px-5 py-3 ring-2 rounded-full ring-red-500 text-white text-xs hover:bg-red-500 '>LEARN MORE</button>
                 </div>
               </div>

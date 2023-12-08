@@ -3,9 +3,9 @@ import { BiLogoFacebook , BiLogoTwitter , BiLogoPinterest} from "react-icons/bi"
 const Fotter =()=>{
     return(
         <>
-        <div className="mt-28 mb-16">
+        <div className="mt-28 mb-16 mark6">
          <div className=" container  m-auto">
-            <div className="grid grid-cols-4 mx-20">
+            <div className="grid grid-cols-4 justify-center">
                 <div >
                     <h1 className=" font-semibold text-2xl mb-6">Company</h1>
                      <h1 className="mb-4"><a href="" className="a-tag ">Terms & Conditions</a></h1>

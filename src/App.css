@@ -307,7 +307,125 @@
   opacity: 0.6;
   color: #000000;
 }
+.mark3{
+  width: 60%;
+  margin: auto;
+}
+.mark4{
+  width: 60%;
+  margin: auto;
+}
+.mark5{
+  width:84%;
+  margin: auto;
+}
 
+
+
+@media (max-width:1440px) {
+  .card-main .card-title{
+    width: 59%;
+  }
+  
+}
+@media (max-width:1200px) {
+  .header-bottom .ml-10{
+    margin: 0;
+  }
+  .header-bottom .gap-7{
+    gap: 20px;
+  }
+  .slider h1{
+    font-size: 50px
+  }
+ 
+  .card-main .card-title{
+    font-size: 32px;
+  }
+  .mark5 h1{
+    font-size: 28px;
+  }
+  
+}
+@media (max-width:992px) {
+  .mark5 h1{
+    font-size: 25px;
+  }
+  .mark5 .inmark5{
+    margin-top: 3rem;
+  }
+ 
+}
+@media (max-width:768px) {
+ .card-main .grid-cols-3{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+ }
+ .mark6 .grid-cols-4{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.mark6{
+  margin-top: 4rem;
+}
+ .main-2 .inmain-2{
+  font-size: 30px;
+ }
+.main-2 svg{
+  font-size: 2.75rem;
+}
+.main-3 .grid-cols-4{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.slider1 .mark{
+  font-size: larger;
+}
+.slider1 .mark1{
+  font-size: 12px;
+}
+.slider1 p{
+  font-size: 12px;
+}
+.mark3{
+  font-size: 30px;
+}
+.mark4 h1{
+  font-size: 30px;
+}
+.mark5 h1{
+  font-size: 15px;
+  margin: 0%;
+}
+.mark5 .inmark5{
+  margin-top: 1rem;
+}
+.mark5 .grid-cols-11 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.mark5 button{
+  margin-top: 1rem;
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+}
+@media (max-width:576px) {
+  .card-main .grid-cols-3{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+ }
+ .mark6{
+  margin-top: 4rem;
+}
+.slider2{
+  height: 1300px;
+}
+ .main-2 svg{
+  font-size: 2rem;
+  padding-left: 5px;
+}
+.main-3 .grid-cols-4{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+}
 
 
 
